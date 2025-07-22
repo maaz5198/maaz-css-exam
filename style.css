@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 150px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 50px;
+
+}
+.cart{
+    display: flex;
+}
+
+.both{
+    flex-wrap: wrap;
+}
+
+.search{
+    width: 400px;
+    height: 30px;
+    padding: 15px;
+}
+
+.head{
+    margin: 50px;
+    display: flex;
+}
+
+.button button{
+    background-color: green;
+    padding: 5px;
+    
+}
+
+.text a{
+    padding: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+.fruits{
+    background-image: url('./fruits.jpg');
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    text-align: left;
+    padding-top: 100px;
+    color: black;
+    padding-left: 42px;
+}
+.fruits .btn{
+    margin: 15px;
+    padding: 5px;
+}
+.sec h2{
+    margin: 10px 0;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 230px;
+    height: 250px;
+}
+
+.card1 {
+    display: flex;
+}
+
+.card1 .card{
+    margin: 15px;
+}
+
+.card1 p{
+    text-align: center;
+}
+
+
+.img1-2{
+    display: flex;
+    padding: 50px;
+
+}
+.img2{
+    padding-left: 150px;
+}
+
+.section-3 .card-1{
+    margin: 4rem 0;
+    background-image: url("../images/s3-1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    border-radius: 5px;
+}
+
+.section-3 h3{
+    font-size: 30px;
+}
+
+.section-3 .cont{
+    padding: 1rem 0 2rem 0;
+    color: #808080;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.section-3 .text{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #070728;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
